@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "tenis Nike",
+      "imgId": "001",
+      "price": 100.00,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "tenis adidas",
+      "imgId": "002",
+      "price": 250.99,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "tenis casual",
+      "imgId": "003",
+      "price": 79.99,
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "tenis anime",
+      "imgId": "004",
+      "price": 129.99,
+      "available": true
+    },
+    {
+      "id": 5,
+      "name": "tenis new balance",
+      "imgId": "001",
+      "price": 159.99,
+      "available": true
+    },
+    {
+      "id": 6,
+      "name": "tenis all star",
+      "imgId": "002",
+      "price": 179.99,
+      "available": true
+    },
+    {
+      "id": 7,
+      "name": "tenis corrida",
+      "imgId": "003",
+      "price": 300.00,
+      "available": true
+    }
+  ]
+}
