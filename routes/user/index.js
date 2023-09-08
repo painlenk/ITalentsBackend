@@ -23,14 +23,14 @@ router.post("/register", (req, res) => {
       JSON.stringify(userData),
       (error, _) => {
         if (error) {
-          res.status(400).send("error ao criar usuário -->", error);
+          res.status(400).send("O nome de usuário ja existe");
           throw new Error("error ao criar usuário");
         }
       }
     );
-    res.status(201).send("created");
+    res.status(201).send("Usuário criado com sucesso");
   } catch (e) {
-    res.status(400).send("erro ao criar o usuario");
+    res.status(400).send("Erro ao criar o usuário");
   }
 });
 
